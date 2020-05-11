@@ -1,0 +1,87 @@
+:root {
+    font-size: 1.5vw;
+}
+input {
+    transition: .3s !important;
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+}
+input:hover,
+input:focus,
+input:active {
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, .5) !important;
+    transition: .3s !important;
+}
+button {
+    transition: .3s !important;
+}
+button:hover {
+    box-shadow: 0 0 .5rem #007bff;
+    color: orange !important;
+    transition: .3s;
+}
+ul {
+    list-style: none;
+    padding: 0 !important;
+}
+.alert {
+    font-size: .7rem;
+}
+.wrapper {
+    background: rgb(8,50,68);
+    background: linear-gradient(0deg, rgba(8,50,68,1) 0%, rgba(6,36,54,1) 100%);
+    height: 100%;
+}
+.loigin-sucsses {
+    font-size: 1.3rem;
+}
+.complete {
+    font-size: .7rem;
+}
+.form-popup {
+    background-color: #fff;
+}
+.white-block {
+    border-radius: .2rem;
+    border: .05rem solid #e3e9ec;
+    margin: .5rem .5rem;
+    padding: .7rem;
+    background-color: #fff;
+    box-shadow: 0 0 .3rem rgba(255, 255, 255, .5);
+}
+::-webkit-input-placeholder{
+	color:#ccc;
+    font-size: 0.75rem;
+}
+::-moz-placeholder{
+	color:#ccc;
+    font-size: 0.75rem;
+}
+:-moz-placeholder{
+	color:#ccc;
+    font-size: 0.75rem;
+}
+:-ms-input-placeholder{
+	color:#ccc;
+    font-size: 0.75rem;
+}
+:focus::-webkit-input-placeholder	   {color:transparent}
+:focus::-moz-placeholder			   {color:transparent}
+:focus:-moz-placeholder				   {color:transparent}
+:focus:-ms-input-placeholder		   {color:transparent}
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity .5s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity .5s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity .5s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity .5s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity .5s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity .5s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity .5s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity .5s ease;}
+textarea::-webkit-input-placeholder       {opacity: 1; transition: opacity .5s ease;}
+textarea::-moz-placeholder                {opacity: 1; transition: opacity .5s ease;}
+textarea:-moz-placeholder                 {opacity: 1; transition: opacity .5s ease;}
+textarea:-ms-input-placeholder            {opacity: 1; transition: opacity .5s ease;}
+textarea:focus::-webkit-input-placeholder {opacity: 0; transition: opacity .5s ease;}
+textarea:focus::-moz-placeholder          {opacity: 0; transition: opacity .5s ease;}
+textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity .5s ease;}
+textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity .5s ease;}
